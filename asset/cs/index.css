@@ -1,0 +1,39 @@
+body {
+    background: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.tenu {
+    border: solid 5px cornsilk;
+}
+
+.case {
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+    border: solid 3px black;
+    background: #fff;
+}
+
+.hovered {
+    background: rgb(231, 124, 187);
+    border-style: dashed;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;   
+}
+
+h1 {
+    text-align: center;
+}
